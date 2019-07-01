@@ -16,6 +16,6 @@ function BoardMember(name, homeState, training) {
   }
 
   this.releasePressStatement = function() {
-    `Hi, my name is ${name}. I am from ${homestate}, and I was trained in ${training}.`
+    `Hi, my name is ${name}. I am from ${homeState}, and I was trained in ${training}.`
   }
 }
