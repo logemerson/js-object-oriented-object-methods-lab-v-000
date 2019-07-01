@@ -1,4 +1,8 @@
 function BoardMember(name, homeState, training) {
+  this.name = name;
+  this.homestate = homeState;
+  this.training = training;
+  
   this.veto = function() {
     return `No, I must disagree`
   }
@@ -12,6 +16,6 @@ function BoardMember(name, homeState, training) {
   }
 
   this.releasePressStatement = function() {
-    `Hi, my name is ${name}. I am from ${homeState}, and I was trained in ${homeState}.`
+    `Hi, my name is ${name}. I am from ${homestate}, and I was trained in ${training}.`
   }
 }
