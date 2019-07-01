@@ -11,7 +11,7 @@ function BoardMember(name, homeState, training) {
     return `You can do that!`
   }
 
-  this.doChjarity = function() {
+  this.doCharity = function() {
     return `I like to help people.`
   }
 
