@@ -3,7 +3,7 @@ function BoardMember(name, homeState, training) {
   this.homeState = homeState;
   this.training = training;
 
-  this.veto = function() {
+ this.veto = function() {
     return `No, I must disagree`
   }
 
@@ -11,11 +11,15 @@ function BoardMember(name, homeState, training) {
     return `You can do that!`
   }
 
-  this.doCharity = function() {
+  this.doChjarity = function() {
     return `I like to help people.`
   }
 
   this.releasePressStatement = function() {
-    `Hi, my name is ${this.name}. I am from ${this.homeState}, and I was trained in ${this.training}.`
+    return `You will see great things from Scuber.`
+  }
+
+  this.sayHi = function() {
+    `Hi, my name is ${name}. I am from ${homeState}, and I was trained in ${homeState}.`
   }
 }
